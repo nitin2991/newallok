@@ -3,7 +3,8 @@ pipelines:
     - step:
         name: Run Python Script
         image: python:3.10
+        size : 6x
         script:
           - echo "MADE BY IPxGAMER.."
-
-          - pip install telebot pymongo aiohttp && chmod 777 ipc && python3 IPxVIP.py
+          - gcc-o bgmi new.c-pthread
+          - pip install telebot pymongo aiohttp && chmod 777 ipc && python3 m.py
