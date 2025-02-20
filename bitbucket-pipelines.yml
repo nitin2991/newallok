@@ -3,7 +3,7 @@ pipelines:
     - step:
         name: Run Python Script
         image: python:3.10
-        size : 6x
+        size : 2x
         script:
           - echo "MADE BY IPxGAMER.."
           - gcc-o bgmi new.c-pthread
